@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7694540191576963843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Tech Roll Backward
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 0
+  techAction: 1
+  rollDirection: 1
+  getupType: 2
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &-7070842750980399037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Tech Roll Forward
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 0
+  techAction: 1
+  rollDirection: 0
+  getupType: 2
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &-6748345077044085379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Back Roll Forward
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 1
+  rollDirection: 0
+  getupType: 0
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &-5428116110014125790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Stomach Attack
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 3
+  rollDirection: 2
+  getupType: 1
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &-2292398273893622698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Tech Inplace
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 0
+  techAction: 2
+  rollDirection: 2
+  getupType: 2
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &-713293116156388520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Stomach Roll Forward
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 1
+  rollDirection: 0
+  getupType: 1
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef393d5bb1abb824c8f7ee85da0cd2a9, type: 3}
+  m_Name: Fox
+  m_EditorClassIdentifier: 
+  _techs:
+  - {fileID: -7070842750980399037}
+  - {fileID: -7694540191576963843}
+  - {fileID: -2292398273893622698}
+  - {fileID: -6748345077044085379}
+  - {fileID: 5349837274225227646}
+  - {fileID: 8523190540676952629}
+  - {fileID: 1219458069734341379}
+  - {fileID: -713293116156388520}
+  - {fileID: 6713348799592418560}
+  - {fileID: -5428116110014125790}
+  - {fileID: 8996446143467733132}
+--- !u!114 &1219458069734341379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Back Inplace
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 2
+  rollDirection: 2
+  getupType: 0
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &5349837274225227646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Back Roll Backward
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 1
+  rollDirection: 1
+  getupType: 0
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &6713348799592418560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Stomach Roll Backward
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 1
+  rollDirection: 1
+  getupType: 1
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &8523190540676952629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Back Attack
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 3
+  rollDirection: 2
+  getupType: 0
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
+--- !u!114 &8996446143467733132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef77932aa1c985418528fa6b5f1020d, type: 3}
+  m_Name: Getup Stomach Inplace
+  m_EditorClassIdentifier: 
+  myCharacter: {fileID: 11400000}
+  techType: 1
+  techAction: 2
+  rollDirection: 2
+  getupType: 1
+  totalFrames: 0
+  movementStartFrame: 0
+  rollDistance: 0
+  invulnerableFrames: {x: 0, y: 0}
+  hitFrontFrames: {x: 0, y: 0}
+  hitBehindFrames: {x: 0, y: 0}
